@@ -7,7 +7,8 @@ pages:
 
   script:
   - npm ci
-  - BASE_URL=${BASE_URL} npm run build
+  - BASE_URL=${BASE_URL} >> .env
+  - npm run build
   - rm -fR ./public
   - mv ./dist ./public
 
