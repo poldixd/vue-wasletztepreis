@@ -8,10 +8,12 @@ pages:
   script:
   - npm ci
   - npm run build
+  - rm -fR ./public
+  - mv ./dist ./public
 
   artifacts:
     paths:
-    - dist
+    - public
   
   only:
   - master
