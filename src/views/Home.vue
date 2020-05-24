@@ -74,18 +74,18 @@ export default {
                     name: '-- Kein Versand --'
                 },{
                     preis: 3.79,
-                    name: 'DHL Päckchen S'
+                    name: 'DHL Päckchen S 2 kg'
                 }, {
-                    preis: 4.49,
-                    name: 'DHL Päckchen M'
+                    preis: 4.39,
+                    name: 'DHL Päckchen M 2 kg'
                 }, {
-                    preis: 5.49,
+                    preis: 4.99,
                     name: 'DHL Paket 2 kg',
                 }, {
-                    preis: 6.49,
+                    preis: 5.99,
                     name: 'DHL Paket 5 kg',
                 }, {
-                    preis: 9.49,
+                    preis: 8.49,
                     name: 'DHL Paket 10 kg',
                 }
             ],
