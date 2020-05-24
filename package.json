@@ -1,5 +1,6 @@
 {
   "name": "vue-wasletztepreis",
+  "description": "Simply calculate the end price included Paypal fee and shipping costs for e.g. eBay Kleinanzeigen.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
