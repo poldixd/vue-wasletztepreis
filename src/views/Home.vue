@@ -76,9 +76,6 @@ export default {
                     preis: 3.79,
                     name: 'DHL Päckchen S'
                 }, {
-                    preis: 3.79,
-                    name: 'DHL Päckchen S'
-                }, {
                     preis: 4.49,
                     name: 'DHL Päckchen M'
                 }, {
