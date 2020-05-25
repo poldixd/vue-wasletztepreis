@@ -99,7 +99,7 @@ export default {
                 },
                 {
                     name: 'Dienstleistungen (mit Gebühren)',
-                    berechnung: (number) => (parseFloat(number) * 1.249) + .35
+                    berechnung: (number) => ((parseFloat(number) * (1 + (2.49/100))) + .35).toFixed(2)
                 }
             ]
         }
