@@ -109,7 +109,7 @@ export default {
         berechne() {
 
             let rabatt = 0
-            let preis = this.paypalData[this.paypal].berechnung(this.preisValue) + this.portoKosten
+            let preis = this.paypalData[this.paypal].berechnung(this.preis) + this.portoKosten
 
             if (this.rabatt > 0) {
                 rabatt = preis / 100 * this.rabatt
